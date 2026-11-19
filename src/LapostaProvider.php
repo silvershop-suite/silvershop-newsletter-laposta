@@ -12,7 +12,7 @@ use SilverStripe\Core\Environment;
 use SilverStripe\Core\Injector\Injectable;
 
 /**
- * Laposta implementation of silvershop/newsletter's {@see NewsletterProvider}. A thin mapping layer: it turns a
+ * Laposta implementation of silvershop-suite/newsletter's {@see NewsletterProvider}. A thin mapping layer: it turns a
  * {@see NewsletterSubscription} into a Laposta list member (idempotent upsert + soft unsubscribe via
  * {@see LapostaClient}) and maps Laposta webhooks back onto the local subscription status. Its write side mirrors
  * the Mailchimp adapter (upsert-by-email, single opt-in by default); its webhook side is Campaign-Monitor-shaped

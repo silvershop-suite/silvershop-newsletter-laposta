@@ -10,7 +10,7 @@ use SilverStripe\Core\Injector\Injectable;
 /**
  * Thin Laposta API v2 client (Guzzle). Deliberately minimal — just the member upsert + soft-unsubscribe endpoints
  * the provider needs — to avoid the official Laposta PHP SDK (which carries its own HTTP stack). Mirrors
- * silvershop/newsletter-mailchimp's MailchimpClient and silvershop/newsletter-campaignmonitor's
+ * silvershop-suite/newsletter-mailchimp's MailchimpClient and silvershop-suite/newsletter-campaignmonitor's
  * CampaignMonitorClient.
  *
  * Two things differ from both siblings:
